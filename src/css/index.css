@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+main {
+    background-color: #FFFFFF;
+}
+
+#rules {
+    background-color: #0A76D9;
+}
+
+#stepCards {
+    background-color: #61B3FB;
+}
+
+#landingSection {
+    background-image: url('../img/backgroundLandingSection.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0 0 48px 48px;
+    padding: 190px 184px 160px 184px;
+    box-shadow: 0px 2px 20px #858585;
+}
+
+#landingSection h3 {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    margin-bottom: 50px;
+}
+
+#landingSection h3 b {
+    font-weight: 800;
+    line-height: 56px;
+}
+
+#landingSection p {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 400;
+    width: 78%;
+    margin: 0 0 80px 0;
+    line-height: 29.26px;
+}
+
+#landingSection p b {
+    font-weight: 700;
+}
+
+#stepCards {
+    border-radius: 48px;
+}
+
+.btn {
+    border-radius: 8px !important;
+    padding: 10px 12px !important;
+}
+
+.btn-dark-blue {
+    background-color: #141E39 !important;
+    border: none !important;
+    color: #FFFFFF !important;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+}
+
+#landingSection .gota img:last-child{
+    position: relative;
+    top: -40px;
+    left: 325px;
+    width: 91px;
+    transform: rotate(63.09deg);
+}
+
+#landingSection .gota img:first-child{
+    position: relative;
+    z-index: 100;
+    width: 26.25px;
+    top: -45px;
+    left: 397px; 
+}
+
+#backgroundPerson {
+    background-color: #0A76D9;
+    border-radius: 24px;
+    border: 1px solid #141E39;
+    width: 434px;
+    height: 434px;
+}
+
+#person {
+    position: relative;
+    top: -275px;
+    right: 50px;
+}
+
+#logoTidmo {
+    position: relative;
+    top: -510px;
+    right: 205px;
+    background-color: #FFFFFF;
+    width: fit-content;
+    padding: 14px 34px;
+    border: 1px solid #141E39;
+    border-radius: 114px;
+}
+
+#logoTidmo img {
+    width: 156px;
+    height: 49.64px;
+}
+
+#bubbles img {
+    filter: brightness(0.8);
+}
+
+#bubbles img:first-child {
+    position: relative;
+    top: -60px;
+    left: 25px;
+    width: 55px;
+}
+
+#bubbles img:last-child {
+    position: relative;
+    top: -25px;
+    left: 25px;
+    width: 39px;
+}
+
+#sparkles img {
+    filter: invert(100%) brightness(160%);
+    transform: rotate(15.75deg);
+}
+
+#sparkles img:first-child {
+    position: relative;
+    top: -407px;
+    left: 340px;
+    width: 72px;
+}
+
+#sparkles img:nth-child(2) {
+    position: relative;
+    top: -437px;
+    left: 340px;
+    width: 54.87px;
+}
+
+#sparkles img:last-child {
+    position: relative;
+    top: -350px;
+    left: 260px;
+    width: 40.08px;
+}

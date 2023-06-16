@@ -1,0 +1,69 @@
+#landingSection{
+    padding: 40px;
+}
+
+#backgroundPerson{
+    width: 165px;
+    height: 165px;
+    border-radius: 11px;
+}
+
+#landingSection .gota img:last-child{
+    top: -15px;
+    left: 125px;
+    width: 34.56px;
+}
+
+#landingSection .gota img:first-child{
+    width: 12px;
+    top: -17px;
+    left: 155px; 
+}
+
+#bubbles img:first-child {
+    top: -30px;
+    left: 12px;
+    width: 20.89px;
+}
+
+#bubbles img:last-child {
+    top: -15px;
+    left: 10px;
+    width: 14.82px;
+}
+
+#person {
+    top: -115px;
+    right: 18px;
+    height: 140%;
+}
+
+#sparkles img:first-child {
+    top: -166px;
+    left: 130px;
+    width: 27.35px;
+}
+
+#sparkles img:nth-child(2) {
+    top: -175px;
+    left: 127px;
+    width: 20.85px;
+}
+
+#sparkles img:last-child {
+    top: -143px;
+    left: 92px;
+    width: 15.22px;
+}
+
+#logoTidmo {
+    top: -205px;
+    right: 78px;
+    padding: 5px 15px;
+    border-radius: 114px;
+}
+
+#logoTidmo img {
+    width: 59px;
+    height: 19px;
+}
