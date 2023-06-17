@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page - ColinaTech</title>
+    <title>Tidmo - Seja bem vindo!</title>
 
     <link rel="stylesheet" href="./src/css/index.css">
     <link rel="stylesheet" media="screen and (max-width: 576px)" href="./src/css/mobile.css">
@@ -204,15 +204,19 @@
         </section>
         <section id="stepCards">
             <div class="header">
-                <div>
-                    <h3>É fácil e prático</h3>
-                    <div>
-                        <img src="./src/img/gotaBorda.png" alt="">
-                        <img src="./src/img/close.svg" alt="">
+                <div class="row">
+                    <div class="offset-3 col-7 d-flex justify-content-center">
+                        <div class="title">
+                            <h3>É fácil e prático</h3>
+                        </div>
+                        <div class="gotaClose">
+                            <img src="./src/img/gotaBorda.png" alt="">
+                            <img src="./src/img/close.svg" alt="">
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <img src="./src/img/threeDots.svg" alt="">
+                    <div class="col-2 text-center d-flex justify-content-center align-content-center">
+                        <img src="./src/img/threeDots.svg" alt="" style="width: 35%;">
+                    </div>
                 </div>
             </div>
             <div class="horizontal-steps d-none d-lg-flex flex-column">
@@ -262,73 +266,93 @@
                 </div>
             </div>
             <div class="footer">
-                <img src="./src/img/logoMinimalist.svg" alt="">
-                <div>
-                    <h4>
-                        Aproveite nosso cupom de desconto para 
-                        realizar sua assinatura agora mesmo!
-                    </h4>
-                    <a href="" class="btn btn-dark-blue">Aproveitar cupom</a>
+                <div class="row align-items-center">
+                    <img src="./src/img/logoMinimalist.svg" class="col-2" alt="">
+                    <div class="text-center offset-1 col-6">
+                        <h4>
+                            Aproveite nosso cupom de desconto para 
+                            realizar sua assinatura agora mesmo!
+                        </h4>
+                        <a href="" class="btn btn-dark-blue">Aproveitar cupom</a>
+                    </div>
                 </div>
             </div>
         </section>
         <section id="commentaries">
-            <div class="header">
-                <img src="./src/img/sparklesInCircle.svg" alt="">
-                <img src="./src/img/sparklesInCircle.svg" alt="">
-                <h3>Quem assina</h3>
-                <h3>não se arrepende!</h3>
+            <div class="header text-center d-flex justify-content-center">
+                <div class="sparkles">
+                    <img src="./src/img/sparklesInCircle.svg" alt="">
+                    <img src="./src/img/sparklesInCircle.svg" alt="">
+                </div>
+                <div class="title">
+                    <h3>Quem assina</h3>
+                    <div>
+                        <h3>não se arrepende!</h3>
+                    </div>
+                </div>
             </div>
             <div class="cards">
 
             </div>
-            <a href="" class="btn btn-blue">Quero meu cupom</a>
+            <div class="text-center">
+                <a href="" class="btn btn-blue">Quero meu cupom</a>
+            </div>
         </section>
         <section id="rules">
-            <div>
-                <div>
-                    <div class="sparkles">
-                        <img src="./src/img/star.svg" alt="">
-                        <img src="./src/img/star.svg" alt="">
-                        <img src="./src/img/star.svg" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="rulesTip">
+                            <div class="sparkles">
+                                <img src="./src/img/star.svg" alt="">
+                                <img src="./src/img/star.svg" alt="">
+                                <img src="./src/img/star.svg" alt="">
+                            </div>
+                            <div class="gota">
+                                <img src="./src/img/gota.svg" alt="">
+                                <img src="./src/img/close.svg" alt="">
+                            </div>
+                            <p class="text-white">
+                                Aproveite a oportunidade de ter sua casa sempre 
+                                limpa com nosso plano de faxina sem carência, 
+                                sem prazo mínimo e com um cupom de desconto especial.
+                            </p>
+                        </div>
+                        <div class="rulesText">
+                            <h6>REGRAS DO CUPOM</h6>
+                            <p>
+                                Com nosso cupom você pode ganhar até R$80,00 de desconto apenas no primeiro mês. 
+                                O desconto é de R$10,00 por faxina, ou seja:
+                            </p>
+                            <ul>
+                                <li>
+                                    <span><b>Assinatura quinzenal:</b> R$20,00 de desconto no primeiro mês;</span>
+                                </li>
+                                <li>
+                                    <span><b>Assinatura semanal:</b> R$40,00 de desconto no primeiro mês;</span>
+                                </li>
+                                <li>
+                                    <span><b>Assinatura semanal plus:</b> R$80,00 de desconto no primeiro mês.</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <a href="" class="btn btn-dark-blue">Realizar assinatura</a>
+                        </div>
                     </div>
-                    <div class="gota">
-                        <img src="./src/img/close.svg" alt="">
-                        <img src="./src/img/gota.svg" alt="">
+                    <div class="col-12 col-lg-6" id="produtoGroup">
+                        <div id="produto">
+                            <img src="./src/img/Logo_tidmo.png" class="logo" alt="">
+                            <img src="./src/img/close.svg" class="close" alt="">
+                            <img src="./src/img/product.png" alt="">
+                            <div class="bubbles">
+                                <img src="./src/img/bubble.png" alt="">
+                                <img src="./src/img/bubble.png" alt="">
+                            </div>
+                        </div>
+                        <!-- <div class="logo">
+                        </div> -->
                     </div>
-                    <p>
-                        Aproveite a oportunidade de ter sua casa sempre 
-                        limpa com nosso plano de faxina sem carência, 
-                        sem prazo mínimo e com um cupom de desconto especial.
-                    </p>
-                </div>
-                <div class="bg-white">
-                    <h6>REGRAS DO CUPOM</h6>
-                    <p>
-                        Com nosso cupom você pode ganhar até R$80,00 de desconto apenas no primeiro mês. 
-                        O desconto é de R$10,00 por faxina, ou seja:
-                    </p>
-                    <ul>
-                        <li>
-                            Assinatura quinzenal: R$20,00 de desconto no primeiro mês;
-                        </li>
-                        <li>
-                            Assinatura semanal: R$40,00 de desconto no primeiro mês;
-                        </li>
-                        <li>
-                            Assinatura semanal plus: R$80,00 de desconto no primeiro mês.
-                        </li>
-                    </ul>
-                    <a href="" class="btn btn-blue">Realizar assinatura</a>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <img src="./src/img/Logo_tidmo.png" alt="">
-                </div>
-                <div>
-                    <img src="./src/img/close.svg" alt="">
-                    <img src="./src/img/product.png" alt="">
                 </div>
             </div>
         </section>
