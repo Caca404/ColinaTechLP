@@ -38,19 +38,19 @@
     height: 140%;
 }
 
-#sparkles img:first-child {
+#landingSection .sparkles img:first-child {
     top: -166px;
     left: 130px;
     width: 27.35px;
 }
 
-#sparkles img:nth-child(2) {
+#landingSection .sparkles img:nth-child(2) {
     top: -175px;
     left: 127px;
     width: 20.85px;
 }
 
-#sparkles img:last-child {
+#landingSection .sparkles img:last-child {
     top: -143px;
     left: 92px;
     width: 15.22px;
