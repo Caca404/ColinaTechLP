@@ -10,6 +10,18 @@ main {
     background-color: #ECEBEB;
 }
 
+img{
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
 #rules {
     background-color: #0A76D9;
     padding-bottom: 81px;
@@ -31,10 +43,9 @@ main {
 
 #landingSection {
     border-radius: 0 0 48px 48px;
-    padding: 190px 184px 160px 184px;
+    padding: 135px 184px 160px 184px;
     box-shadow: 0px 2px 20px #858585;
 }
-
 
 #landingSection h3 {
     font-size: 48px;
@@ -59,6 +70,10 @@ main {
 
 #landingSection p b {
     font-weight: 700;
+}
+
+#landingSection .row > div:first-child{
+    margin-top: 60px;
 }
 
 #stepCards {
@@ -86,94 +101,10 @@ main {
     font-size: 20px !important;
 }
 
-#landingSection .gota img:last-child {
-    position: relative;
-    top: -40px;
-    left: 325px;
-    width: 91px;
-    transform: rotate(63.09deg);
-}
-
-#landingSection .gota img:first-child {
-    position: relative;
-    z-index: 100;
-    width: 26.25px;
-    top: -45px;
-    left: 397px;
-}
-
-#backgroundPerson {
-    background-color: #0A76D9;
-    border-radius: 24px;
-    border: 1px solid #141E39;
-    width: 434px;
-    height: 434px;
-}
-
-#person {
-    position: relative;
-    top: -275px;
-    right: 50px;
-}
-
-#logoTidmo {
-    position: relative;
-    top: -510px;
-    right: 105px;
-    background-color: #FFFFFF;
-    width: fit-content;
-    padding: 14px 34px;
-    border: 1px solid #141E39;
-    border-radius: 114px;
-}
-
-#logoTidmo img {
-    width: 156px;
-    height: 49.64px;
-}
-
-#bubbles img {
-    filter: brightness(0.8);
-}
-
-#bubbles img:first-child {
-    position: relative;
-    top: -60px;
-    left: 25px;
-    width: 55px;
-}
-
-#bubbles img:last-child {
-    position: relative;
-    top: -25px;
-    left: 25px;
-    width: 39px;
-}
-
-#landingSection .sparkles img {
-    filter: invert(100%) brightness(160%);
-    transform: rotate(15.75deg);
-}
-
-#landingSection .sparkles img:first-child {
-    position: relative;
-    top: -407px;
-    left: 340px;
-    width: 72px;
-}
-
-#landingSection .sparkles img:nth-child(2) {
-    position: relative;
-    top: -437px;
-    left: 340px;
-    width: 54.87px;
-}
-
-#landingSection .sparkles img:last-child {
-    position: relative;
-    top: -350px;
-    left: 260px;
-    width: 40.08px;
+#person{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
 }
 
 #plans{
@@ -187,7 +118,7 @@ main {
     border-radius: 24px;
 }
 
-#plans .header h2{
+#plans .header h3{
     font-weight: 800;
     font-size: 48px;
     line-height: 56px;
@@ -213,6 +144,10 @@ main {
 #plans .sparkles img:last-child{
     top: 10px;
     right: 110px;
+}
+
+#plans .cards{
+    justify-content: space-between;
 }
 
 #plans .card{
@@ -598,12 +533,12 @@ main {
     position: relative;
     width: 228.73px;
     top: 30px;
-    left: 210px;
+    left: 110px;
     padding: 0 12px;
 }
 
 #produto{
-    margin-left: 100px;
+    text-align: center;
 }
 
 #produto .close{
@@ -619,13 +554,13 @@ main {
 #produto .bubbles img:first-child{
     width: 58.23px;
     bottom: 70px;
-    right: 45px;
+    right: 220px;
 }
 
 #produto .bubbles img:last-child{
     width: 41.3px;
     bottom: 20px;
-    right: 50px;
+    right: 225px;
 }
 
 #produtoGroup{

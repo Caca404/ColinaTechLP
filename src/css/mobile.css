@@ -2,68 +2,55 @@
     padding: 40px;
 }
 
-#backgroundPerson{
-    width: 165px;
-    height: 165px;
-    border-radius: 11px;
+#landingSection .row div:first-child > div{
+    text-align: center;
 }
 
-#landingSection .gota img:last-child{
-    top: -15px;
-    left: 125px;
-    width: 34.56px;
+#produto{
+    margin-right: auto !important;
+    margin-left: auto !important;
 }
 
-#landingSection .gota img:first-child{
-    width: 12px;
-    top: -17px;
-    left: 155px; 
+#produto .produtoImage{
+    width: 100% !important;
 }
 
-#bubbles img:first-child {
-    top: -30px;
-    left: 12px;
-    width: 20.89px;
+#produto .close{
+    top: 80px;
+    left: 100px;
 }
 
-#bubbles img:last-child {
-    top: -15px;
-    left: 10px;
-    width: 14.82px;
+.rulesTip .gota img:first-child{
+    top: 27px;
+    left: 300px;
 }
 
-#person {
-    top: -115px;
-    right: 18px;
-    height: 140%;
+.rulesTip .gota img:last-child{
+    top: 22px;
+    left: 260px;
 }
 
-#landingSection .sparkles img:first-child {
-    top: -166px;
-    left: 130px;
-    width: 27.35px;
+#landingSection p{
+    width: 100%;
+    text-align: justify;
 }
 
-#landingSection .sparkles img:nth-child(2) {
-    top: -175px;
-    left: 127px;
-    width: 20.85px;
+#landingSection h3{
+    text-align: center;
 }
 
-#landingSection .sparkles img:last-child {
-    top: -143px;
-    left: 92px;
-    width: 15.22px;
+h3{
+    font-size: 45px !important;
 }
 
-#logoTidmo {
-    top: -205px;
-    right: 78px;
-    padding: 5px 15px;
-    border-radius: 114px;
+#plans .cards{
+    justify-content: center;
 }
 
-#logoTidmo img {
-    width: 59px;
-    height: 19px;
+#person{
+    margin-top: 50px;
+}
+
+#person img{
+    width: 100%;
 }
