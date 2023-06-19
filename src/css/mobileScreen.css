@@ -1,0 +1,130 @@
+#landingSection{
+    padding: 40px;
+}
+
+#landingSection .row div:first-child > div{
+    text-align: center;
+}
+
+#produtoGroup{
+    margin-top: 28px;
+}
+
+#produtoGroup img{
+    width: 100% !important;
+}
+
+#landingSection p{
+    width: 100%;
+    text-align: justify;
+}
+
+#landingSection h3{
+    text-align: center;
+}
+
+h3{
+    font-size: calc(1.3rem + 2vw) !important;
+}
+
+h4{
+    font-size: calc(1.275rem + .3vw) !important;
+}
+
+p{
+    font-size: medium !important;
+}
+
+span{
+    font-size: 1rem !important;
+}
+
+#plans .cards{
+    justify-content: center;
+}
+
+#person{
+    margin-top: 50px;
+}
+
+#person img{
+    width: 100%;
+}
+
+#stepCards .gotaClose{
+    width: 0;
+}
+
+.vertical-steps .stepper-wrapper {
+    margin-top: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.vertical-steps .stepper-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.vertical-steps .stepper-item:not(:first-child){
+    margin-top: 100px;
+}
+
+.vertical-steps .stepper-item > img{
+    margin-bottom: 20px;
+}
+
+.vertical-steps .stepper-item .step-counter {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #ccc;
+    /* margin-bottom: 6px;
+    margin-top: 32px; */
+}
+
+.vertical-steps .stepper-item.completed .step-counter {
+    background-color: #0A76D9;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.vertical-steps .stepper-item.completed .step-name{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24.38px;
+    text-align: center;
+}
+
+.stepper-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#stepCards{
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+
+#stepCards .title{
+    align-self: center;
+}
+
+#stepCards .gotaClose img{
+    top: -25px !important;
+}

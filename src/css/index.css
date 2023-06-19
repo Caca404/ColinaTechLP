@@ -82,7 +82,7 @@ img{
 
 .btn {
     border-radius: 8px !important;
-    padding: 10px 12px !important;
+    padding: 10px 45px !important;
 }
 
 .btn-dark-blue {
@@ -99,6 +99,10 @@ img{
     color: #FFFFFF !important;
     font-weight: 700 !important;
     font-size: 20px !important;
+}
+
+#rules a{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 #person{
@@ -135,15 +139,9 @@ img{
     left: 80px;
 }
 
-#plans .sparkles img:first-child{
-    width: 35px;
-    top: -20px;
+#plans .sparkles img{
+    top: 0px;
     right: 100px;
-}
-
-#plans .sparkles img:last-child{
-    top: 10px;
-    right: 110px;
 }
 
 #plans .cards{
@@ -172,15 +170,15 @@ img{
 }
 
 #plans .card:first-child .card-header h5{
-    padding: 29px 23px 29px 39px;
+    padding: 29px 23px 29px 32px;
 }
 
 #plans .card:nth-child(2) .card-header h5{
-    padding: 29px 35px 29px 39px;
+    padding: 29px 35px 29px 32px;
 }
 
 #plans .card:last-child .card-header h5{
-    padding: 29px 9px 29px 14px;
+    padding: 29px 9px 29px 12px;
 }
 
 #plans .card-header picture{
@@ -189,7 +187,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 26.87px;
+    padding: 0 26.87px;
     height: 100%;
 }
 
@@ -261,6 +259,7 @@ img{
     border: 1px solid #141E39;
     border-radius: 100px;
     padding: 10px 50px;
+    text-align: center;
 }
 
 #stepCards .header h3{
@@ -272,27 +271,18 @@ img{
 
 #stepCards .header .gotaClose img:first-child{
     position: relative;
-    width: 49.51px;
-    transform: rotate(-60deg);
     top: -10px;
     right: 40px;
 }
 
-#stepCards .header .gotaClose img:last-child{
-    position: relative;
-    width: 14px;
-    top: -15px;
-    right: 73px;
-}
-
-.stepper-wrapper {
+.horizontal-steps .stepper-wrapper {
     margin-top: auto;
     margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
 }
 
-.stepper-item {
+.horizontal-steps .stepper-item {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -300,11 +290,11 @@ img{
     flex: 1;
 }
 
-.stepper-item:not(:last-child):not(:first-child){
+.horizontal-steps .stepper-item:not(:last-child):not(:first-child){
     margin: 0 10px;
 }
 
-.stepper-item::before {
+.horizontal-steps .stepper-item::before {
     position: absolute;
     content: "";
     border-bottom: 2px solid #ccc;
@@ -314,7 +304,7 @@ img{
     z-index: 2;
 }
 
-.stepper-item::after {
+.horizontal-steps .stepper-item::after {
     position: absolute;
     content: "";
     border-bottom: 2px solid #ccc;
@@ -324,7 +314,7 @@ img{
     z-index: 2;
 }
 
-.stepper-item .step-counter {
+.horizontal-steps .stepper-item .step-counter {
     position: relative;
     z-index: 5;
     display: flex;
@@ -338,14 +328,14 @@ img{
     margin-top: 32px;
 }
 
-.stepper-item.completed .step-counter {
+.horizontal-steps .stepper-item.completed .step-counter {
     background-color: #0A76D9;
     color: white;
     font-weight: 700;
     font-size: 24px;
 }
 
-.stepper-item.completed .step-name{
+.horizontal-steps .stepper-item.completed .step-name{
     color: white;
     font-weight: 500;
     font-size: 20px;
@@ -353,7 +343,7 @@ img{
     text-align: center;
 }
 
-.stepper-item.completed::after {
+.horizontal-steps .stepper-item.completed::after {
     position: absolute;
     content: "";
     border-bottom: 2px solid #141E39;
@@ -363,11 +353,11 @@ img{
     z-index: 3;
 }
 
-.stepper-item:first-child::before {
+.horizontal-steps .stepper-item:first-child::before {
     content: none;
 }
 
-.stepper-item:last-child::after {
+.horizontal-steps .stepper-item:last-child::after {
     content: none;
 }
 
@@ -401,18 +391,8 @@ img{
 
 #commentaries .header .sparkles img{
     position: relative;
-}
-
-#commentaries .header .sparkles img:first-child{
-    width: 81px;
-    top: 10px;
-    right: 180px;
-}
-
-#commentaries .header .sparkles img:last-child{
-    width: 61px;
-    top: -110px;
-    right: 100px;
+    top: -15px;
+    right: 190px;
 }
 
 #commentaries .header .title{
@@ -465,44 +445,16 @@ img{
     line-height: 24px;
 }
 
-.rulesTip .gota img{
+.rulesTip .gotaClose{
     position: relative;
+    top: 50px;
+    left: 10px;
 }
 
-.rulesTip .gota img:first-child{
-    width: 49.51px;
-    top: 27px;
-    left: 600px;
-}
-
-.rulesTip .gota img:last-child{
-    width: 24px;
-    top: 22px;
-    left: 560px;
-}
-
-.rulesTip .sparkles img{
+.rulesTip .sparkles{
     position: relative;
-    filter: invert(100%) brightness(160%);
-    transform: rotate(15.75deg);
-}
-
-.rulesTip .sparkles img:first-child{
-    width: 58.27px;
-    top: 105px;
-    right: 55px;
-}
-
-.rulesTip .sparkles img:nth-child(2){
-    width: 44.41px;
-    top: 88px;
-    right: 55px;
-}
-
-.rulesTip .sparkles img:last-child{
-    width: 32.44px;
-    top: 152px;
-    right: 126px;
+    top: 80px;
+    right: 65px;
 }
 
 .rulesText h6{
@@ -528,45 +480,11 @@ img{
     font-weight: 500;
 }
 
-#rules .logo{
-    background-color: #0A76D9;
-    position: relative;
-    width: 228.73px;
-    top: 30px;
-    left: 110px;
-    padding: 0 12px;
-}
-
-#produto{
-    text-align: center;
-}
-
-#produto .close{
-    position: relative;
-    top: 100px;
-    left: 140px;
-}
-
-#produto .bubbles img{
-    position: relative;
-}
-
-#produto .bubbles img:first-child{
-    width: 58.23px;
-    bottom: 70px;
-    right: 220px;
-}
-
-#produto .bubbles img:last-child{
-    width: 41.3px;
-    bottom: 20px;
-    right: 225px;
-}
-
 #produtoGroup{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .cards .card-header h6{

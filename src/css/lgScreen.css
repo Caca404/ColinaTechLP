@@ -1,0 +1,25 @@
+#stepCards .gotaClose{
+    width: 0;
+}
+
+#plans .cards{
+    justify-content: center;
+}
+
+#plans .sparkles img{
+    right: 50px !important;
+}
+
+#plans .gota{
+    top: -90px !important;
+    left: 30px !important;
+}
+
+#person img{
+    margin-top: 60px;
+    width: 100%;
+}
+
+#produtoGroup{
+    margin-top: 40px;
+}

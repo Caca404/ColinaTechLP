@@ -1,0 +1,28 @@
+#plans .cards{
+    justify-content: center;
+}
+
+h3{
+    font-size: calc(1.3rem + 1.7vw) !important;
+}
+
+#stepCards .gotaClose{
+    width: 0;
+}
+
+h4{
+    font-size: calc(1.275rem + .3vw) !important;
+}
+
+#person img{
+    margin-top: 60px;
+    width: 100%;
+}
+
+#landingSection {
+    padding: 105px 114px 130px 114px;
+}
+
+#produtoGroup{
+    margin-top: 40px;
+}
